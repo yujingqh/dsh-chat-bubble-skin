@@ -1,0 +1,6 @@
+# dsh-chat-bubble: 纯 CSS 皮肤插件
+# 需要一个 dummy insert 让 DSH 不跳过这个 bundle，
+# 从而触发 client-modules 扫描 dsh.client 声明
+- insert:
+    - id: dsh-chat-bubble
+      name: 'dsh-chat-bubble'

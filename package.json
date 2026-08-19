@@ -1,0 +1,48 @@
+{
+  "name": "dsh-chat-bubble",
+  "version": "1.0.0",
+  "description": "气泡式聊天布局 + 大输入框 + 宽对话区 + 主题/气泡配色 — 社交软件风格 DSH Web 皮肤插件",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh-skin",
+    "chat",
+    "bubble",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yujingqh/dsh-chat-bubble-skin.git"
+  },
+  "homepage": "https://github.com/yujingqh/dsh-chat-bubble-skin#readme",
+  "author": "yujingqh <yujing_qh37063@126.com>",
+  "license": "MIT"
+}
