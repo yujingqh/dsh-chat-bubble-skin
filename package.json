@@ -1,7 +1,7 @@
 {
   "name": "dsh-chat-bubble",
-  "version": "1.0.0",
-  "description": "气泡式聊天布局 + 大输入框 + 宽对话区 + 主题/气泡配色 — 社交软件风格 DSH Web 皮肤插件",
+  "version": "1.0.1",
+  "description": "气泡式聊天布局 + 大输入框 + 宽对话区 + 主题/气泡配色 — 社交软件风格 DSH 皮肤插件（Web 与桌面版通用，主路径不依赖哈希类名）",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -25,6 +25,8 @@
   "files": [
     "lib/index.js",
     "lib/client.js",
+    "scripts/test-client.mjs",
+    "scripts/test-selectors.mjs",
     "cordis.patch.yml",
     "README.md",
     "LICENSE"
